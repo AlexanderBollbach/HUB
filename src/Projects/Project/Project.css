@@ -1,0 +1,53 @@
+.Main {
+	
+	display: grid;
+	grid-template-rows: 10% 15% 70%;
+	box-shadow: 2px 5px 5px rgba(68, 68, 68, 0.6);;
+}
+
+
+.Main > div > img {
+
+	width: 95%;
+	height: 95%;
+}
+
+.centered {
+  
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.Test {	
+	composes: Main;
+	transition: opacity 300ms ease-in-out, transform 300ms ease-in-out;
+	
+}
+
+.entering {
+	composes: Test;
+	opacity: 0;
+	transform: scale(0.8);
+}
+
+.entered {
+	composes: Test;
+	opacity: 1;
+	transform: scale(1);
+}
+
+
+.exiting {
+	composes: Test;
+	opacity: 0;
+	transform: scale(1);
+}
+
+.exited {
+	composes: Test;
+	opacity: 0;
+	transform: scale(0.8);
+}

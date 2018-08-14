@@ -1,0 +1,30 @@
+.Main {
+	background-color: green;
+	/*height: 100%;*/
+}
+
+.TransitionGroup {
+	display: flex;
+	flex-direction: row;
+}
+
+:global(.Test) {
+	transition: background-color 0200ms ease-in-out;
+	background-color: green;
+}
+
+:global(.entering) {
+	background-color: green;
+}
+
+:global(.entered) {
+	background-color: red;
+}
+
+:global(.exiting) {
+	background-color: red;
+}
+
+:global(.exited) {
+	background-color: green;
+}

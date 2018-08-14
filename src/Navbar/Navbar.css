@@ -1,0 +1,25 @@
+.Navbar {
+	background-color: clear;
+	display: flex;
+	justify-content: center;
+}
+
+.Navbar > a {
+	
+	margin-left: 1%;
+}
+
+.ListElement {
+	text-decoration: none;
+}
+
+
+.Default {
+	color: black;
+	text-decoration: none;
+}
+
+.Active {
+	composes: Default;
+	color: red;
+}

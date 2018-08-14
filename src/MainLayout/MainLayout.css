@@ -1,0 +1,17 @@
+.Container {
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	width: 100%;
+	height: 100vh;
+	margin: 0;
+}
+
+.Main {
+	margin-top: 7vh;
+	width: 50%;
+	height: 60vh;
+	display: grid;
+	grid-template-rows: 8vh 7vh auto;
+	grid-gap: 10% 25%;
+}

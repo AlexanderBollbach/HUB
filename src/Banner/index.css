@@ -1,0 +1,60 @@
+.FlexContainer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.Item {
+}
+
+@import url("https://fonts.googleapis.com/css?family=VT323");
+
+.ListOfLetters {
+	font-family: "VT323", monospace;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	letter-spacing: 10px;
+	justify-content: space-between;
+}
+
+.ListOfLetters li {
+	list-style: none;
+	font-size: 5em;
+	font-weight: bold;
+
+	color: #000000;
+	animation: tick 2.5s infinite;
+}
+
+.ListOfLetters li {
+	margin: 10px;
+}
+
+.ListOfLetters li:nth-child(even) {
+	animation-delay: 0.2s;
+}
+
+.ListOfLetters li:nth-child(odd) {
+	animation-delay: 0.4s;
+}
+
+@keyframes tick {
+	0% {
+		transform: rotate(0deg);
+		color: black;
+	}
+	50% {
+		transform: rotate(15deg);
+		color: purple;
+	}
+
+	60% {
+		transform: translate(0px, 10px);
+	}
+	25% {
+		transform: rotate(0deg);
+		color: black;
+	}
+
+}

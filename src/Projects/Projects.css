@@ -1,0 +1,7 @@
+.Main {
+	background-color: clear;
+	display: grid;
+	grid-auto-rows: 25vmin;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 5vmin;
+}
