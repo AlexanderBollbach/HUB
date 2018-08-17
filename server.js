@@ -2,6 +2,10 @@ var express = require("express");
 const path = require("path");
 const app = express();
 
+var morgan = require("morgan");
+app.use(morgan("tiny"));
+console.log("morgan");
+
 // app.enable("strict routing");
 
 // app.get("/apps/:name", (req, res) => {
