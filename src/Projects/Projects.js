@@ -10,7 +10,7 @@ const ProjectsData = [
     name: "canvas ballet",
     description: "orbs in motion w/ sound",
     imageURL: "/apps/canvas-ballet",
-    url: "/apps/canvas-ballet/dist"
+    url: "/canvas-ballet-app"
   },
   {
     name: "twizual",
