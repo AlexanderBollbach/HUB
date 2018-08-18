@@ -25796,17 +25796,7 @@ var ProjectsData = [{
   name: "canvas ballet",
   description: "orbs in motion w/ sound",
   imageURL: "/apps/canvas-ballet",
-  url: "/apps/canvas-ballet/dist"
-}, {
-  name: "twizual",
-  description: "bar project is a foo project....",
-  imageURL: "http://localhost:8080/space1.png",
-  url: "/apps/twizual/dist"
-}, {
-  name: "foo",
-  description: "foo project is a bar project",
-  imageURL: "http://localhost:8080/space1.png",
-  url: "/apps/canvas-ballet"
+  url: "/canvas-ballet-app"
 }];
 
 var Projects = function Projects() {
